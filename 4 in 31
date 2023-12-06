@@ -161,3 +161,19 @@ elif cnt == up:
     print(a.lower())
 else:
     print(a.lower())
+'''def get_voice(animal,voice):
+    text = f"I am {animal} ,my voice is {voice}"
+    return text
+
+def eat(animal,food):
+    text  = f"I am {animal} and i am eating {food}"
+    return text
+if __name__ == "__main__":
+    print(eat("Tiger","Meat"))
+    print(get_voice("Wolf","Auuuuuu"))
+triple = lambda a : "Hello"
+print(triple("s"))
+my_list = [10,2,3,4,5,100]
+triple = list(lambda a : is_even ,my_list)
+print(triple)
+'''
