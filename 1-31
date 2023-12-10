@@ -36,3 +36,12 @@ elif a <= 0 and a >= 13:
     print("There is no such month!")
 elif a == 12:
     print("There is snow out the window!")
+name = "warthunder"
+print = (name[2])
+a = "Hello ADA , how are you?"
+print(a.startswith("Hello"))
+print(a.startswith("ADA"))
+print(a.endswith("u?"))
+print(a.endswith("re"))
+a = "Ada"
+print(a.center(40))
