@@ -44,4 +44,9 @@ print(a.startswith("ADA"))
 print(a.endswith("u?"))
 print(a.endswith("re"))
 a = "Ada"
-print(a.center(40))
+print(a.center(40))a = input("Write your name:")
+b = int(input("Write your age:"))
+c = input("Write you favourite film?")
+print("Hello ", a)
+print("Great!", c ,", you have a good taste in films!!")
+
