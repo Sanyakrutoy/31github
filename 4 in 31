@@ -218,3 +218,8 @@ r = n // 5
 if n % 5 != 0:
     r += 1
 print(r)
+menu = {'manty': 200, 'plov': 150, 'lagman': 130, 'borsh': 100}
+menu.update({"besh_barmak" : 130})
+menu.update({"lagman" : 135})
+menu.pop("borsh", None )
+print(menu)
