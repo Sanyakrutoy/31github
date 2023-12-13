@@ -223,3 +223,22 @@ menu.update({"besh_barmak" : 130})
 menu.update({"lagman" : 135})
 menu.pop("borsh", None )
 print(menu)
+a = 2**3
+b = 3**2
+if a > b:
+    print("A is bigger")
+elif b > a:
+    print("B is bigger")
+a = 20 
+i = 0
+while a >= i:
+    print(i)
+    i += 2
+for i in range(1,100):
+    if i % 3==0 and i % 2 == 0 and i % 9 == 0 :
+        print(i)
+a =1
+while a < 100:
+    if a % 3 == 0 and a % 2 == 0 and a % 9 == 0:
+        print(a)
+    a += 1
