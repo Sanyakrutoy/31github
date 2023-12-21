@@ -20,7 +20,6 @@ for i in kaito:
     if i > b:
         cont += 1
 print(cont)
-
 a = int(input("Write number of month:"))
 if 1 <= a <= 2: 
     print("There is snow out the window!")
