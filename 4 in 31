@@ -384,3 +384,15 @@ if res < 0:
     print(0)
 else:
     print(res)
+from django.contrib import admin
+from django.urls import path, include
+from rest_framework import routers
+from .views import CategoryViewSet, TasksViewSet
+
+router = routers.DefaultRouter()
+router.register('categories', CategoryViewSet)
+router.register('tasks', TasksViewSet)
+
+urlpatterns = [
+    path('', include(router.urls)),
+]
